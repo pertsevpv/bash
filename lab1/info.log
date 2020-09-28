@@ -1,0 +1,70 @@
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.7546] hostname: hostname: using hostnamed
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.7546] hostname: hostname changed from (none) to "pertsevpv-VirtualBox"
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.7551] dns-mgr[0x55a1cc953290]: init: dns=systemd-resolved rc-manager=symlink, plugin=systemd-resolved
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.7554] manager[0x55a1cc971030]: rfkill: Wi-Fi hardware radio set enabled
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.7555] manager[0x55a1cc971030]: rfkill: WWAN hardware radio set enabled
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.7642] Loaded device plugin: NMTeamFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-team.so)
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.7745] Loaded device plugin: NMBluezManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-bluetooth.so)
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.7756] Loaded device plugin: NMWwanFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-wwan.so)
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.7776] Loaded device plugin: NMWifiFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-wifi.so)
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.7801] Loaded device plugin: NMAtmManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-adsl.so)
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.7805] manager: rfkill: Wi-Fi enabled by radio killswitch; enabled by state file
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.7806] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.7807] manager: Networking is enabled by state file
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.7809] dhcp-init: Using DHCP client 'internal'
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.7821] settings: Loaded settings plugin: ifupdown ("/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-settings-plugin-ifupdown.so")
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.7821] settings: Loaded settings plugin: keyfile (internal)
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.7821] ifupdown: management mode: unmanaged
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.7853] device (lo): carrier: link connected
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.7857] manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/1)
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.7869] manager: (enp0s3): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.8002] settings: (enp0s3): created default wired connection 'Проводное соединение 1'
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.8022] device (enp0s3): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.8232] device (enp0s3): carrier: link connected
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.8242] device (enp0s3): state change: unavailable -> disconnected (reason 'carrier-changed', sys-iface-state: 'managed')
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.8287] policy: auto-activating connection 'Проводное соединение 1' (a52eb047-36cc-372d-8f62-a68e3f42513e)
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.8354] device (enp0s3): Activation: starting connection 'Проводное соединение 1' (a52eb047-36cc-372d-8f62-a68e3f42513e)
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.8356] device (enp0s3): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.8361] manager: NetworkManager state is now CONNECTING
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.8364] device (enp0s3): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.8387] device (enp0s3): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.8392] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.8455] modem-manager: ModemManager available
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.8529] dhcp4 (enp0s3): option dhcp_lease_time      => '86400'
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.8529] dhcp4 (enp0s3): option domain_name_servers  => '192.168.0.1'
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.8529] dhcp4 (enp0s3): option expiry               => '1601380245'
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.8529] dhcp4 (enp0s3): option ip_address           => '10.0.2.15'
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.8530] dhcp4 (enp0s3): option next_server          => '10.0.2.4'
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.8530] dhcp4 (enp0s3): option requested_broadcast_address => '1'
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.8530] dhcp4 (enp0s3): option requested_domain_name => '1'
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.8531] dhcp4 (enp0s3): option requested_domain_name_servers => '1'
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.8531] dhcp4 (enp0s3): option requested_domain_search => '1'
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.8531] dhcp4 (enp0s3): option requested_host_name  => '1'
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.8531] dhcp4 (enp0s3): option requested_interface_mtu => '1'
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.8531] dhcp4 (enp0s3): option requested_ms_classless_static_routes => '1'
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.8531] dhcp4 (enp0s3): option requested_nis_domain => '1'
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.8531] dhcp4 (enp0s3): option requested_nis_servers => '1'
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.8531] dhcp4 (enp0s3): option requested_ntp_servers => '1'
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.8531] dhcp4 (enp0s3): option requested_rfc3442_classless_static_routes => '1'
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.8532] dhcp4 (enp0s3): option requested_root_path  => '1'
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.8532] dhcp4 (enp0s3): option requested_routers    => '1'
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.8532] dhcp4 (enp0s3): option requested_static_routes => '1'
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.8532] dhcp4 (enp0s3): option requested_subnet_mask => '1'
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.8532] dhcp4 (enp0s3): option requested_time_offset => '1'
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.8532] dhcp4 (enp0s3): option requested_wpad       => '1'
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.8532] dhcp4 (enp0s3): option routers              => '10.0.2.2'
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.8532] dhcp4 (enp0s3): option subnet_mask          => '255.255.255.0'
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.8532] dhcp4 (enp0s3): state changed unknown -> bound
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.8549] device (enp0s3): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.8618] device (enp0s3): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.8621] device (enp0s3): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.8627] manager: NetworkManager state is now CONNECTED_LOCAL
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.8639] manager: NetworkManager state is now CONNECTED_SITE
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.8641] policy: set 'Проводное соединение 1' (enp0s3) as default for IPv4 routing and DNS
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.8647] device (enp0s3): Activation: successful, device activated.
+Sep 28 14:50:45 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293845.8676] manager: startup complete
+Sep 28 14:50:47 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293847.2986] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 28 14:50:48 pertsevpv-VirtualBox ModemManager[671]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:03.0': not supported by any plugin
+Sep 28 14:51:03 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601293863.7432] agent-manager: agent[541e13e571b983b5,:1.84/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 28 15:11:08 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601295068.2670] manager: NetworkManager state is now CONNECTED_SITE
+Sep 28 15:11:12 pertsevpv-VirtualBox NetworkManager[558]: <info>  [1601295072.0003] manager: NetworkManager state is now CONNECTED_GLOBAL

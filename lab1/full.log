@@ -1,0 +1,235 @@
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: #011Warning:  warning, (EE) error, (NI) not implemented, (??) unknown.
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Warning:  The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Warning:  The directory "/usr/share/fonts/X11/100dpi/" does not exist.
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Warning:  The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Warning:  The directory "/usr/share/fonts/X11/100dpi" does not exist.
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Warning:  The directory "/usr/share/fonts/X11/75dpi" does not exist.
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Warning:  Falling back to old probe method for modesetting
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Warning:  Falling back to old probe method for fbdev
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Warning:  VGA arbiter: cannot open kernel arbiter, no multi-card support
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Warning:  vmware(0): Failed to initialize Gallium3D Xa. No render acceleration available.
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Warning:  vmware(0): Skipped initialization of direct rendering due to lack of render acceleration.
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Warning:  vmware(0): Disabling Xv because no adaptors could be initialized.
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: #011(++) from command line, (!!) notice, Information:  informational,
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  The server relies on udev to provide the list of input devices.
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Loader magic: 0x55c0690db020
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Module ABI versions:
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  systemd-logind: took control of session /org/freedesktop/login1/session/_32
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  xfree86: Adding drm device (/dev/dri/card0)
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  systemd-logind: got fd for /dev/dri/card0 226:0 fd 12 paused 0
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  LoadModule: "glx"
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Loading /usr/lib/xorg/modules/extensions/libglx.so
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Module glx: vendor="X.Org Foundation"
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  LoadModule: "vmware"
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Loading /usr/lib/xorg/modules/drivers/vmware_drv.so
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Module vmware: vendor="X.Org Foundation"
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  LoadModule: "modesetting"
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Module modesetting: vendor="X.Org Foundation"
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  LoadModule: "fbdev"
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Module fbdev: vendor="X.Org Foundation"
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  LoadModule: "vesa"
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Loading /usr/lib/xorg/modules/drivers/vesa_drv.so
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Module vesa: vendor="X.Org Foundation"
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  vmware: driver for VMware SVGA: vmware0405, vmware0710
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  modesetting: Driver for Modesetting Kernel Drivers: kms
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  FBDEV: driver for framebuffer: fbdev
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  VESA: driver for VESA chipsets: vesa
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Loading sub module "fbdevhw"
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  LoadModule: "fbdevhw"
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Loading /usr/lib/xorg/modules/libfbdevhw.so
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Module fbdevhw: vendor="X.Org Foundation"
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  vmware(0): Creating default Display subsection in Screen section
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  vmware(0): Output Virtual1 has no monitor section
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  vmware(0): Output Virtual2 has no monitor section
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  vmware(0): Output Virtual3 has no monitor section
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  vmware(0): Output Virtual4 has no monitor section
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  vmware(0): Output Virtual5 has no monitor section
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  vmware(0): Output Virtual6 has no monitor section
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  vmware(0): Output Virtual7 has no monitor section
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  vmware(0): Output Virtual8 has no monitor section
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  vmware(0): Printing probed modes for output Virtual1
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  vmware(0): Modeline "800x600"x60.0   42.75  800 850 900 950  600 650 700 750 -hsync +vsync (45.0 kHz eP)
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  vmware(0): Modeline "2560x1600"x60.0  348.50  2560 2752 3032 3504  1600 1603 1609 1658 -hsync +vsync (99.5 kHz e)
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  vmware(0): Modeline "1920x1440"x60.0  234.00  1920 2048 2256 2600  1440 1441 1444 1500 -hsync +vsync (90.0 kHz e)
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  vmware(0): Modeline "1856x1392"x60.0  218.25  1856 1952 2176 2528  1392 1393 1396 1439 -hsync +vsync (86.3 kHz e)
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  vmware(0): Modeline "1792x1344"x60.0  204.75  1792 1920 2120 2448  1344 1345 1348 1394 -hsync +vsync (83.6 kHz e)
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  vmware(0): Modeline "1920x1200"x59.9  193.25  1920 2056 2256 2592  1200 1203 1209 1245 -hsync +vsync (74.6 kHz e)
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  vmware(0): Modeline "1600x1200"x60.0  162.00  1600 1664 1856 2160  1200 1201 1204 1250 +hsync +vsync (75.0 kHz e)
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  vmware(0): Modeline "1680x1050"x60.0  146.25  1680 1784 1960 2240  1050 1053 1059 1089 -hsync +vsync (65.3 kHz e)
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  vmware(0): Modeline "1400x1050"x60.0  121.75  1400 1488 1632 1864  1050 1053 1057 1089 -hsync +vsync (65.3 kHz e)
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  vmware(0): Modeline "1280x1024"x60.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  vmware(0): Modeline "1440x900"x59.9  106.50  1440 1520 1672 1904  900 903 909 934 -hsync +vsync (55.9 kHz e)
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  vmware(0): Modeline "1280x960"x60.0  108.00  1280 1376 1488 1800  960 961 964 1000 +hsync +vsync (60.0 kHz e)
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  vmware(0): Modeline "1360x768"x60.0   85.50  1360 1424 1536 1792  768 771 777 795 +hsync +vsync (47.7 kHz e)
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  vmware(0): Modeline "1280x800"x59.8   83.50  1280 1352 1480 1680  800 803 809 831 +hsync -vsync (49.7 kHz e)
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  vmware(0): Modeline "1152x864"x75.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  vmware(0): Modeline "1280x768"x59.9   79.50  1280 1344 1472 1664  768 771 778 798 -hsync +vsync (47.8 kHz e)
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  vmware(0): Modeline "1024x768"x60.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  vmware(0): Modeline "800x600"x60.3   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  vmware(0): Modeline "640x480"x59.9   25.18  640 656 752 800  480 489 492 525 -hsync -vsync (31.5 kHz e)
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  vmware(0): EDID for output Virtual2
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  vmware(0): EDID for output Virtual3
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  vmware(0): EDID for output Virtual4
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  vmware(0): EDID for output Virtual5
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  vmware(0): EDID for output Virtual6
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  vmware(0): EDID for output Virtual7
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  vmware(0): EDID for output Virtual8
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  vmware(0): Output Virtual1 connected
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  vmware(0): Output Virtual2 disconnected
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  vmware(0): Output Virtual3 disconnected
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  vmware(0): Output Virtual4 disconnected
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  vmware(0): Output Virtual5 disconnected
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  vmware(0): Output Virtual6 disconnected
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  vmware(0): Output Virtual7 disconnected
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  vmware(0): Output Virtual8 disconnected
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  vmware(0): Using exact sizes for initial modes
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  vmware(0): Output Virtual1 using initial mode 800x600 +0+0
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Loading sub module "fb"
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  LoadModule: "fb"
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Loading /usr/lib/xorg/modules/libfb.so
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Module fb: vendor="X.Org Foundation"
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Loading sub module "dri2"
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  LoadModule: "dri2"
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Module "dri2" already built-in
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Loading sub module "dri3"
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  LoadModule: "dri3"
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Module "dri3" already built-in
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  UnloadModule: "modesetting"
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Unloading modesetting
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  UnloadModule: "fbdev"
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Unloading fbdev
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  UnloadSubModule: "fbdevhw"
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Unloading fbdevhw
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  UnloadModule: "vesa"
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Unloading vesa
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  vmware(0): Initialized VMWARE_CTRL extension version 0.2
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  vmware(0): No 3D acceleration. Not setting up textured video.
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Initializing extension Generic Event Extension
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Initializing extension SHAPE
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Initializing extension MIT-SHM
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Initializing extension XInputExtension
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Initializing extension XTEST
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Initializing extension BIG-REQUESTS
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Initializing extension SYNC
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Initializing extension XKEYBOARD
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Initializing extension XC-MISC
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Initializing extension SECURITY
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Initializing extension XFIXES
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Initializing extension RENDER
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Initializing extension RANDR
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Initializing extension COMPOSITE
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Initializing extension DAMAGE
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Initializing extension MIT-SCREEN-SAVER
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Initializing extension DOUBLE-BUFFER
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Initializing extension RECORD
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Initializing extension DPMS
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Initializing extension Present
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Initializing extension DRI3
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Initializing extension X-Resource
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Initializing extension XVideo
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Initializing extension XVideo-MotionCompensation
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Initializing extension SELinux
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  SELinux: Disabled on system
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Initializing extension GLX
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  AIGLX: Screen 0 is not DRI2 capable
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  IGLX: Loaded and initialized swrast
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  GLX: Initialized DRISWRAST GL provider for screen 0
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Initializing extension XFree86-VidModeExtension
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Initializing extension XFree86-DGA
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Initializing extension XFree86-DRI
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Initializing extension DRI2
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  vmware(0): Setting screen physical size to 211 x 158
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  config/udev: Adding input device Power Button (/dev/input/event0)
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  LoadModule: "libinput"
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Loading /usr/lib/xorg/modules/input/libinput_drv.so
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Module libinput: vendor="X.Org Foundation"
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Using input driver 'libinput' for 'Power Button'
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  systemd-logind: got fd for /dev/input/event0 13:64 fd 20 paused 0
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  event0  - Power Button: is tagged by udev as: Keyboard
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  event0  - Power Button: device is a keyboard
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  event0  - Power Button: device removed
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  event0  - Power Button: is tagged by udev as: Keyboard
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  event0  - Power Button: device is a keyboard
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  config/udev: Adding input device Sleep Button (/dev/input/event1)
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Using input driver 'libinput' for 'Sleep Button'
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  systemd-logind: got fd for /dev/input/event1 13:65 fd 23 paused 0
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  event1  - Sleep Button: is tagged by udev as: Keyboard
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  event1  - Sleep Button: device is a keyboard
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  event1  - Sleep Button: device removed
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  XINPUT: Adding extended input device "Sleep Button" (type: KEYBOARD, id 7)
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  event1  - Sleep Button: is tagged by udev as: Keyboard
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  event1  - Sleep Button: device is a keyboard
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  config/udev: Adding input device Video Bus (/dev/input/event3)
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Using input driver 'libinput' for 'Video Bus'
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  systemd-logind: got fd for /dev/input/event3 13:67 fd 24 paused 0
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  event3  - Video Bus: is tagged by udev as: Keyboard
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  event3  - Video Bus: device is a keyboard
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  event3  - Video Bus: device removed
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 8)
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  event3  - Video Bus: is tagged by udev as: Keyboard
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  event3  - Video Bus: device is a keyboard
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  config/udev: Adding input device VirtualBox mouse integration (/dev/input/event6)
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Using input driver 'libinput' for 'VirtualBox mouse integration'
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  systemd-logind: got fd for /dev/input/event6 13:70 fd 25 paused 0
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  event6  - VirtualBox mouse integration: is tagged by udev as: Mouse
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  event6  - VirtualBox mouse integration: device is a pointer
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  event6  - VirtualBox mouse integration: device removed
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  XINPUT: Adding extended input device "VirtualBox mouse integration" (type: MOUSE, id 9)
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  event6  - VirtualBox mouse integration: is tagged by udev as: Mouse
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  event6  - VirtualBox mouse integration: device is a pointer
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  config/udev: Adding input device VirtualBox mouse integration (/dev/input/js1)
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  No input driver specified, ignoring this device.
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  This device may have been added with another device file.
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  config/udev: Adding input device VirtualBox USB Tablet (/dev/input/event5)
+Sep 28 14:50:59 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Using input driver 'libinput' for 'VirtualBox USB Tablet'
+Sep 28 14:51:00 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  systemd-logind: got fd for /dev/input/event5 13:69 fd 26 paused 0
+Sep 28 14:51:00 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  event5  - VirtualBox USB Tablet: is tagged by udev as: Mouse
+Sep 28 14:51:00 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  event5  - VirtualBox USB Tablet: device is a pointer
+Sep 28 14:51:00 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  event5  - VirtualBox USB Tablet: device removed
+Sep 28 14:51:00 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  XINPUT: Adding extended input device "VirtualBox USB Tablet" (type: MOUSE, id 10)
+Sep 28 14:51:00 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  event5  - VirtualBox USB Tablet: is tagged by udev as: Mouse
+Sep 28 14:51:00 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  event5  - VirtualBox USB Tablet: device is a pointer
+Sep 28 14:51:00 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  config/udev: Adding input device VirtualBox USB Tablet (/dev/input/js0)
+Sep 28 14:51:00 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  No input driver specified, ignoring this device.
+Sep 28 14:51:00 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  This device may have been added with another device file.
+Sep 28 14:51:00 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  config/udev: Adding input device VirtualBox USB Tablet (/dev/input/mouse1)
+Sep 28 14:51:00 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  No input driver specified, ignoring this device.
+Sep 28 14:51:00 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  This device may have been added with another device file.
+Sep 28 14:51:00 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event2)
+Sep 28 14:51:00 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Using input driver 'libinput' for 'AT Translated Set 2 keyboard'
+Sep 28 14:51:00 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  systemd-logind: got fd for /dev/input/event2 13:66 fd 27 paused 0
+Sep 28 14:51:00 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  event2  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+Sep 28 14:51:00 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  event2  - AT Translated Set 2 keyboard: device is a keyboard
+Sep 28 14:51:00 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  event2  - AT Translated Set 2 keyboard: device removed
+Sep 28 14:51:00 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 11)
+Sep 28 14:51:00 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  event2  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+Sep 28 14:51:00 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  event2  - AT Translated Set 2 keyboard: device is a keyboard
+Sep 28 14:51:00 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/event4)
+Sep 28 14:51:00 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  Using input driver 'libinput' for 'ImExPS/2 Generic Explorer Mouse'
+Sep 28 14:51:00 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  systemd-logind: got fd for /dev/input/event4 13:68 fd 28 paused 0
+Sep 28 14:51:00 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  event4  - ImExPS/2 Generic Explorer Mouse: is tagged by udev as: Mouse
+Sep 28 14:51:00 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  event4  - ImExPS/2 Generic Explorer Mouse: device is a pointer
+Sep 28 14:51:00 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  event4  - ImExPS/2 Generic Explorer Mouse: device removed
+Sep 28 14:51:00 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  XINPUT: Adding extended input device "ImExPS/2 Generic Explorer Mouse" (type: MOUSE, id 12)
+Sep 28 14:51:00 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  event4  - ImExPS/2 Generic Explorer Mouse: is tagged by udev as: Mouse
+Sep 28 14:51:00 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  event4  - ImExPS/2 Generic Explorer Mouse: device is a pointer
+Sep 28 14:51:00 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/mouse0)
+Sep 28 14:51:00 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  No input driver specified, ignoring this device.
+Sep 28 14:51:00 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  This device may have been added with another device file.
+Sep 28 14:55:02 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  event6  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+Sep 28 14:58:04 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  event6  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+Sep 28 15:00:16 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  event6  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+Sep 28 15:00:18 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  event6  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+Sep 28 15:04:23 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  event6  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+Sep 28 15:11:08 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  event6  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+Sep 28 15:11:48 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  event6  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+Sep 28 15:18:16 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  event6  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+Sep 28 15:38:08 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  event6  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+Sep 28 16:00:30 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  event6  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+Sep 28 16:00:45 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  event6  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+Sep 28 16:10:21 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  event6  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+Sep 28 16:15:30 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: message repeated 2 times: [ Information:  event6  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.]
+Sep 28 16:25:32 pertsevpv-VirtualBox /usr/lib/gdm3/gdm-x-session[1270]: Information:  event6  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
