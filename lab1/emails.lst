@@ -12,9 +12,9 @@ rene@debian.org
 martin.pitt@ubuntu.com
 jamie@canonical.com
 danieru.dressler@gmail.com
-Двоичный файл /etc/apt/trusted.gpg.d/ubuntu-keyring-2018-archive.gpg совпадает
-Двоичный файл /etc/apt/trusted.gpg.d/ubuntu-keyring-2012-cdimage.gpg совпадает
-Двоичный файл /etc/apt/trusted.gpg.d/ubuntu-keyring-2012-archive.gpg совпадает
+ftpmaster@ubuntu.com
+cdimage@ubuntu.com
+ftpmaster@ubuntu.com
 user@example.com
 dave@mielke.cc
 yan@mistigri.org
@@ -132,7 +132,7 @@ jmknoble@mercury.interpath
 alvar@meiko.co
 clameter@debian.org
 gunnarhj@ubuntu.com
-Двоичный файл /etc/rmt совпадает
+tar@gnu.org
 mike@piratehaven.org
 jon@jon.demon
 jtang@tresys.com
