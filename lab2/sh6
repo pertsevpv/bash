@@ -1,0 +1,17 @@
+#!/bin/bash
+max_pid=""
+max=0
+for pid in $(ps a x -o pid --no-header); do
+	status="/proc/$pid/status"
+	if [[ -f $status ]]
+	then
+		cur=$(grep -i "VmSize:" $status | grep -E -o '[[:digit:]]+')
+		if [[ $cur -gt $max ]]
+		then 
+			max=$cur
+			max_pid=$pid
+		fi
+	fi
+done
+echo -e "$max_pid $max\n"
+top -b -n 1 -i | head -8

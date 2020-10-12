@@ -1,0 +1,26 @@
+#!/bin/bash
+./sh4
+>sh5.log
+cur_N=0
+cur_M=0
+count=0
+int_num="[[:digit:]]+"
+float_num="[[:digit:]]+(,)?[[:digit:]]*"
+while read string; do
+	cur_PPid=$(echo $string | grep -E -o "Parent_ProcessID= $int_num" | grep -E -o "$int_num")
+	if [[ $cur_N -eq $cur_PPid ]]
+	then
+		let count=count+1
+		cur_art=$(echo "$string" | grep -E -o "Average_Running_Time= $float_num" | grep -E -o "$float_num")
+		cur_M=$(echo $M $cur_art | awk '{print $1+$2 }' )
+	else
+		mid_M=$(echo $cur_M $count | awk '{ print $1/$2}')
+		echo -e "Average_Sleeping_Children_of_ParentID= $cur_N is $mid_M\n" >> sh5.log
+		cur_N=$(echo $string | grep -E -o "Parent_ProcessID= $int_num" | grep -E -o "$int_num")
+		cur_M=$(echo "$string" | grep -E -o "Average_Running_Time= $float_num" | grep -E -o "$float_num")
+		count=1
+	fi
+	echo $string >> sh5.log
+done < sh4.log
+cur_M=$(echo $M $cur_art | awk '{print $1+$2 }' )
+echo -e "Average_Sleeping_Children_of_ParentID= $cur_N is $mid_M\n" >> sh5.log

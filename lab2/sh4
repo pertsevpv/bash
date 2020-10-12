@@ -1,0 +1,16 @@
+#!/bin/bash
+>sh4.log
+for pid in $(ps a x -o pid --no-header); do
+	status="/proc/$pid/status"
+	sched="/proc/$pid/sched"
+	if [[ -f $status && -f $sched ]]
+	then
+		ppid=$(grep PPid $status | grep -E -o '[[:digit:]]+')
+		a=$(grep se.sum_exec_runtime $sched | awk ' { print $3 }')
+		b=$(grep nr_switches $sched | awk ' { print $3 } ')
+		#art=$(echo "$a/$b"|bc)
+		art=$(echo "$a $b" | awk ' { print $1/$2 }')
+		echo -e "ProcessID= $pid : Parent_ProcessID= $ppid : Average_Running_Time= $art" >> sh4.log
+	fi
+done
+echo "$(sort sh4.log -n -k 5)" > sh4.log

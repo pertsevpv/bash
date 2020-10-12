@@ -1,0 +1,3 @@
+#!/bin/bash
+ps a x u -u $USER -e --no-header | wc -l | awk '{printf("%d\n",$1)}' > sh1.log
+ps a x u -u $USER --no-header | awk '{ printf("%s\t%s\n",$2,$11) }' >> sh1.log

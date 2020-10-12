@@ -1,0 +1,26 @@
+#!/bin/bash
+>tmp
+>sh7.log
+for pid in $(ps a x -o pid --no-header); do
+	io="/proc/$pid/task/$pid/io"
+	if [[ -f $io ]]
+	then 
+		old_byte=$(sudo cat $io | grep "read_bytes" | grep -E -o "[[:digit:]]+")
+		echo $pid $old_byte >> tmp
+		#echo $old_byte
+	fi
+done
+sleep 60
+while read string; do
+	pid=$(echo $string | awk '{ print $1 }' )
+	old_byte=$(echo $string | awk '{ print $2 }' )
+	io="/proc/$pid/task/$pid/io"
+	if [[ -f $io ]]
+	then
+		new_byte=$(sudo cat $io | grep "read_bytes" | grep -E -o "[[:digit:]]+")
+		echo $pid $(echo "$new_byte $old_byte" | awk '{ print $1-$2 }' ) >> sh7.log
+	fi
+	#echo "$string"
+done < tmp
+sudo rm tmp
+echo "$(sort sh7.log -r -n -k 2 | head -3)" > sh7.log
