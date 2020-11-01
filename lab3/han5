@@ -1,0 +1,35 @@
+#!/bin/bash
+res=1
+mode="+"
+int='^(-)?[[:digit:]]+$'
+(tail -f sh5) | 
+while true; do
+	read line	
+	case $line in
+		"+")
+			mode="+"
+			echo -e "mode changed"
+			;;
+		"*")	#\\*
+			mode="*"
+			echo "mode changed"
+			;;
+		"QUIT")
+			echo "Script stopped successfully"
+			exit
+			;;
+		*)
+			if [[ $line =~ $int ]]; then
+				if [[ $mode == '+' ]]; then
+					res=$(echo $res $line | awk '{ print $1+$2}')
+				else
+					res=$(echo $res $line | awk '{ print $1*$2}')
+				fi
+			echo -e "current value\t$res"
+			else
+				echo "Input error"
+				exit
+			fi
+			;;
+	esac
+done

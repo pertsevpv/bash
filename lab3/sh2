@@ -1,0 +1,5 @@
+#!/bin/bash
+let m=$(date '+%M')+1
+d=$(date '+%H:')$m
+at -f ./sh1 $d
+tail -f ~/report

@@ -14,4 +14,4 @@ for pid in $(ps a x -o pid --no-header); do
 	fi
 done
 echo -e "$max_pid $max\n"
-top -b -n 1 -i | head -8
+top -b -n 1

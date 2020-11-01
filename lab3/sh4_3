@@ -1,0 +1,6 @@
+#!/bin/bash
+echo $$ > pid_43
+a="1"
+while true; do
+	let a=$a+1
+done

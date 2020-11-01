@@ -1,2 +1,2 @@
 #!/bin/bash
-wc -l /var/log/*.log
+sudo wc -l /var/log/*.log

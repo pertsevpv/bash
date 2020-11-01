@@ -1,0 +1,29 @@
+#!/bin/bash
+echo $$ > pid_6
+res=1
+mode="+"
+usr1()
+{
+	echo "mode changed"
+	mode="+"
+}
+usr2()
+{
+	echo "mode changed"
+	mode="*"
+}
+trap 'usr1' USR1
+trap 'usr2' USR2
+
+while true; do
+	case $mode in
+		"+")
+			let res=$res+2
+			;;
+		"*")
+			let res=$res\*2
+			;;
+	esac
+	echo -e "current value\t$res"
+	sleep 1
+done

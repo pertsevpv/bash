@@ -1,0 +1,5 @@
+#!/bin/bash
+d=$(date '+%F_%R:%S')
+mkdir -p ~/test && echo -e "$d\tCatalog test was created successfully" >> ~/report && touch ~/test/$d
+d=$(date '+%F_%R:%S')
+ping -c 1 -q www.net_nikogo.ru || echo -e "$d\tAn error while pinging" >> ~/report
