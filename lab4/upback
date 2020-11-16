@@ -1,0 +1,15 @@
+#!/bin/bash
+cd "$HOME"
+if ! [[ -d "restore" ]]; then 
+	mkdir restore
+fi
+
+lastest=$(ls | grep -E "Backup\-[0-9]{4}-[0-9]{2}-[0-9]{2}" | sort -r -n | head -1)
+cd $lastest
+
+for sFile in $(ls); do
+	copied=$(echo $sFile | grep -E -o "\([0-9]{2}\:[0-9]{2}\:[0-9]{2}copy\)")
+	if [[ $copied = "" ]];then
+		cp $sFile "$HOME/restore"
+	fi
+done

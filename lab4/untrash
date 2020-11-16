@@ -1,0 +1,61 @@
+#!/bin/bash
+if [[ $# -ne 1 ]];then
+	echo "wrong number of arguments: $#, 1 expected"
+	exit
+fi
+fileName=$1
+trash=$(cat "$HOME/.trash.log")
+echo "" > "$HOME/.trash.log"
+for string in $trash;do
+
+	tFullFileName=$(echo "$string" | cut -d "=" -f 1)
+	tFilePath=$(echo "$string" | cut -d "=" -f 1 | grep -E -o '\/[[:alnum:]\/_\-\.]*\/')
+	tFileLink=$(echo "$string" | cut -d "=" -f 2)
+	
+	if [[ $string =~ "$fileName=" ]];then
+		#Имя совпало
+		echo -e "Do you want to restore $tFilePath$fileName?\n[Y/N]"
+		read ans
+		while [[ $ans != "Y" && $ans != "N" ]];do
+			echo "[Y/N]"
+			read ans
+		done
+		if [[ $ans == "Y" ]];then
+			cd $HOME/.trash
+			#Надо восстановить
+			if [[ -d $tFilePath ]];then
+				#Директория есть
+				if ! [[ -f $tFullFileName ]];then
+					#Файла нет
+					ln $tFileLink $tFullFileName
+					rm $tFileLink
+				else
+					#Файл есть
+					echo -e "File $tFullFileName already exists\nDo you want to rename it?\n[Y/N]"
+					read ans
+					while [[ $ans != "Y" && $ans != "N" ]];do
+						echo "[Y/N]"
+						read ans
+					done
+					if [[ $ans == "Y" ]];then
+						echo "Write new name"
+						read newName
+						ln $tFileLink "$tFilePath/$newName"
+						rm $tFileLink
+					else
+						echo $string >> "$HOME/.trash.log"
+					fi
+				fi
+			else
+				#Директории нет
+				echo -e "Directory doesn't exists\nFile created un home directory"
+				ln $tFileLink "$HOME/$fileName"
+				rm $tFileLink
+			fi
+		else 
+			echo $string >> "$HOME/.trash.log"
+		fi
+	else
+		echo $string >> "$HOME/.trash.log"
+	fi
+done

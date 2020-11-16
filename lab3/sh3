@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "*/5 * 2 11 1 ~/bash_labs/bash/lab3/sh1" | crontab
+echo "*/5 * 9 11 1 ~/bash_labs/bash/lab3/sh1" | crontab

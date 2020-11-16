@@ -1,0 +1,17 @@
+#!/bin/bash
+if [[ $# -ne 1 ]];then
+	echo "wrong number of arguments: $#, 1 expected"
+	exit
+fi
+fileName=$1
+if ! [[ -f $fileName ]];then
+	echo "file $fileName doesn't exist"
+	exit
+fi
+if ! [[ -d "$HOME/.trash" ]]; then
+	mkdir "$HOME/.trash"
+fi
+nLink=$(date '+%T')
+ln $fileName "$HOME/.trash/$nLink"
+rm $fileName
+echo -e "$(pwd)/$fileName=$nLink" >> $HOME/.trash.log

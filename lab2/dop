@@ -1,0 +1,6 @@
+#!/bin/bash
+pid="$1"
+ppid=$(ps -o pid,ppid --no-header $pid | awk '{ print $2 }')
+if [[ $ppid != "" ]]; then
+	ps -o cmd --no-header $ppid
+fi

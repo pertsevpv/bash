@@ -1,0 +1,43 @@
+#!/bin/bash
+cd $HOME
+current=$(date '+%Y-%m-%d')
+lastest=$(ls | grep -E "Backup\-[0-9]{4}-[0-9]{2}-[0-9]{2}" | sort -r -n | head -1 | grep -E -o "[0-9]{4}-[0-9]{2}-[0-9]{2}")
+currentSecs=$(date -d "$current" '+%s')
+lastestSecs=$(date -d "$lastest" '+%s')
+let dif=($currentSecs\-$lastestSecs)/60/60/24
+if [[ dif -ge 7 || $lastest == "" ]];then
+	mkdir "Backup-$current"
+	cd "$HOME/source"
+	for sFile in $(ls);do
+		cp $sFile "$HOME/Backup-$current"
+	done
+	echo "$(date) - New directory Backup-$current created successfuly" >> $HOME/backup-report
+	echo -e "files added:\n$(ls)\n" >> $HOME/backup-report
+
+else
+	cd "$HOME/source"
+	newFiles="new files:\n"
+	renamedFiles="renamed files:\n"
+	echo "$(date) - Working with Backup-$lastest" >> $HOME/backup-report
+	for sFile in $(ls);do
+		cd "$HOME/Backup-$lastest"
+		if ! [[ -f $sFile ]]; then
+			newFile="$newFiles\n$sFile"
+			cd "$HOME/source"
+			cp $sFile "$HOME/Backup-$lastest"
+		else
+			size1=$(ls -l $sFile | awk '{ print $5 }')
+			size2=$(ls -l "$HOME/source/$sFile" | awk '{ print $5 }')
+			if [[ $size1 -ne $size2 ]];then
+				cd "$HOME/Backup-$lastest"
+				newName="$sFile($(date '+%T')copy)"
+				renamedFiles="$renamedFiles $sFile -> $newName\n"
+				mv $sFile $newName
+				cd "$HOME/source"
+				cp $sFile "$HOME/Backup-$lastest"
+				
+			fi
+		fi
+	done
+	echo -e "$newFiles$renamedFiles" >> $HOME/backup-report
+fi

@@ -1,0 +1,11 @@
+#!/bin/bash
+echo $$ > pid_ign
+sig="[[:alpha:]]+([[:digit:]])?([\+\-][[:digit:]])?"
+ign()
+{
+	echo "ignored"
+}
+trap 'ign' $(echo $(trap -l) | grep -E -o $sig)
+while true; do
+	:
+done
