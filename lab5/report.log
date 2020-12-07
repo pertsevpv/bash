@@ -1,0 +1,16 @@
+1000000
+2000000
+3000000
+4000000
+5000000
+6000000
+7000000
+8000000
+9000000
+10000000
+11000000
+12000000
+13000000
+14000000
+[ 1344.291510] Out of memory: Killed process 3121 (mem.bash) total-vm:1170044kB, anon-rss:810416kB, file-rss:0kB, shmem-rss:0kB, UID:1000 pgtables:2328kB oom_score_adj:0
+[ 1344.342199] oom_reaper: reaped process 3121 (mem.bash), now anon-rss:0kB, file-rss:0kB, shmem-rss:0kB

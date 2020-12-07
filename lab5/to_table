@@ -1,0 +1,8 @@
+#!/bin/bash
+cat full_report.log | awk 'NR % 10 == 2 { print $4, $6, $8, $10 }' > table
+echo "" >> table
+cat full_report.log | awk 'NR % 10 == 3 { print $3, $5, $7, $9 }' >> table
+echo -e "\n" >> table
+cat full_report2.log | awk 'NR % 10 == 2 { print $4, $6, $8, $10 }' >> table
+echo "" >> table
+cat full_report2.log | awk 'NR % 10 == 3 { print $3, $5, $7, $9 }' >> table

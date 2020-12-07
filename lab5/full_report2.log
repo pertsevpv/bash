@@ -1,0 +1,290 @@
+1000000
+МиБ Mem :   1987,2 total,   1154,3 free,    631,9 used,    201,0 buff/cache
+МиБ Swap:   1401,6 total,    849,2 free,    552,4 used.   1189,2 avail Mem 
+   3122 pertsev+  20   0   87776  81724   3136 S   0,0   4,0   0:10.03 mem2.bash
+   3121 pertsev+  20   0   88304  82108   3140 R  50,0   4,0   0:10.04 mem.bash
+   1552 pertsev+  20   0 4590324 169648  77852 R  18,8   8,3   0:49.14 gnome-shell
+   1351 pertsev+  20   0  850320  48988  18948 R  12,5   2,4   0:29.83 Xorg
+   1657 pertsev+  20   0 1067788  36204  21432 S  12,5   1,8   0:25.22 nautilus
+   2926 pertsev+  20   0  907204 146756  41620 S  12,5   7,2   0:06.99 gedit
+
+2000000
+МиБ Mem :   1987,2 total,   1001,5 free,    784,7 used,    201,0 buff/cache
+МиБ Swap:   1401,6 total,    849,4 free,    552,2 used.   1036,9 avail Mem 
+   3122 pertsev+  20   0  165920 159852   3136 S   0,0   7,9   0:22.63 mem2.bash
+   1552 pertsev+  20   0 4590324 169840  77852 S   6,2   8,3   0:50.55 gnome-shell
+   1657 pertsev+  20   0 1067928  36256  21432 S   6,2   1,8   0:25.31 nautilus
+   3121 pertsev+  20   0  165920 159852   3140 S   6,2   7,9   0:22.58 mem.bash
+      1 root      20   0  167900   5208   3612 S   0,0   0,3   0:02.95 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+
+3000000
+МиБ Mem :   1987,2 total,    846,6 free,    939,5 used,    201,1 buff/cache
+МиБ Swap:   1401,6 total,    849,4 free,    552,2 used.    882,9 avail Mem 
+   3122 pertsev+  20   0  243932 237976   3136 S   0,0  11,7   0:34.30 mem2.bash
+   1657 pertsev+  20   0 1067928  36260  21432 S  13,3   1,8   0:25.40 nautilus
+   3121 pertsev+  20   0  244064 238008   3140 R   6,7  11,7   0:34.20 mem.bash
+   3173 pertsev+  20   0   11920   3612   3152 R   6,7   0,2   0:00.01 top
+      1 root      20   0  167900   5208   3612 S   0,0   0,3   0:02.95 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+
+4000000
+МиБ Mem :   1987,2 total,    694,3 free,   1091,8 used,    201,1 buff/cache
+МиБ Swap:   1401,6 total,    849,4 free,    552,2 used.    729,5 avail Mem 
+   3122 pertsev+  20   0  322076 316100   3136 S   0,0  15,5   0:45.89 mem2.bash
+   3121 pertsev+  20   0  322868 316748   3140 R  62,5  15,6   0:45.82 mem.bash
+   1657 pertsev+  20   0 1067928  36328  21432 S  12,5   1,8   0:25.50 nautilus
+      1 root      20   0  167900   5208   3612 S   0,0   0,3   0:02.95 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+
+5000000
+МиБ Mem :   1987,2 total,    540,5 free,   1245,6 used,    201,1 buff/cache
+МиБ Swap:   1401,6 total,    849,4 free,    552,2 used.    576,2 avail Mem 
+   3122 pertsev+  20   0  400220 394228   3136 S   0,0  19,4   0:57.46 mem2.bash
+   3121 pertsev+  20   0  401540 395216   3140 R  93,8  19,4   0:57.38 mem.bash
+   1657 pertsev+  20   0 1067928  36388  21432 S  12,5   1,8   0:25.60 nautilus
+      1 root      20   0  167900   5208   3612 S   0,0   0,3   0:02.95 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+
+6000000
+МиБ Mem :   1987,2 total,    388,2 free,   1397,9 used,    201,1 buff/cache
+МиБ Swap:   1401,6 total,    849,4 free,    552,2 used.    423,4 avail Mem 
+   3122 pertsev+  20   0  478364 472352   3136 S   0,0  23,2   1:09.25 mem2.bash
+   3121 pertsev+  20   0  480872 474736   3140 R  93,3  23,3   1:09.18 mem.bash
+   1657 pertsev+  20   0 1068060  36456  21432 S   6,7   1,8   0:25.72 nautilus
+      1 root      20   0  167900   5208   3612 S   0,0   0,3   0:02.95 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+
+7000000
+МиБ Mem :   1987,2 total,    235,6 free,   1550,5 used,    201,1 buff/cache
+МиБ Swap:   1401,6 total,    849,4 free,    552,2 used.    271,4 avail Mem 
+   3122 pertsev+  20   0  556508 550476   3136 S   0,0  27,1   1:20.84 mem2.bash
+   3121 pertsev+  20   0  559412 553220   3140 R 100,0  27,2   1:20.77 mem.bash
+   1657 pertsev+  20   0 1068192  36532  21432 S   6,7   1,8   0:25.83 nautilus
+      1 root      20   0  167900   5208   3612 S   0,0   0,3   0:02.95 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+
+8000000
+МиБ Mem :   1987,2 total,     82,5 free,   1703,1 used,    201,6 buff/cache
+МиБ Swap:   1401,6 total,    849,4 free,    552,2 used.    118,2 avail Mem 
+   3122 pertsev+  20   0  634652 628600   3136 S   0,0  30,9   1:32.78 mem2.bash
+   3121 pertsev+  20   0  638084 631972   3140 R  93,8  31,1   1:32.70 mem.bash
+   1657 pertsev+  20   0 1068192  36608  21432 S   6,2   1,8   0:25.96 nautilus
+      1 root      20   0  167900   5208   3612 S   0,0   0,3   0:02.95 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+
+9000000
+МиБ Mem :   1987,2 total,     65,0 free,   1828,5 used,     93,7 buff/cache
+МиБ Swap:   1401,6 total,    822,2 free,    579,5 used.     28,8 avail Mem 
+   3122 pertsev+  20   0  712796 705644   2052 S   0,0  34,7   1:45.67 mem2.bash
+   3121 pertsev+  20   0  716360 709064   2024 R 100,0  34,8   1:45.57 mem.bash
+   1552 pertsev+  20   0 4590324 112004  29600 R  18,8   5,5   0:52.52 gnome-shell
+   1657 pertsev+  20   0 1068368  23484   8496 S  12,5   1,2   0:26.13 nautilus
+   1351 pertsev+  20   0  850672  44720  16144 S   6,2   2,2   0:31.83 Xorg
+   2926 pertsev+  20   0  907204 113868   8732 S   6,2   5,6   0:08.90 gedit
+
+10000000
+МиБ Mem :   1987,2 total,     67,1 free,   1811,7 used,    108,5 buff/cache
+МиБ Swap:   1401,6 total,    650,4 free,    751,2 used.     39,9 avail Mem 
+   3122 pertsev+  20   0  790808 770680   1608 S   0,0  37,9   1:58.52 mem2.bash
+   3121 pertsev+  20   0  794504 774144   1644 R  93,8  38,0   1:58.39 mem.bash
+    188 root      20   0       0      0      0 I   6,2   0,0   0:01.14 kworker/1:2-events
+   1351 pertsev+  20   0  854228  44148  16220 S   6,2   2,2   0:32.32 Xorg
+   1657 pertsev+  20   0 1068368  20516   9624 S   6,2   1,0   0:26.30 nautilus
+      1 root      20   0  167900   1988    432 S   0,0   0,1   0:02.98 systemd
+
+11000000
+МиБ Mem :   1987,2 total,     71,3 free,   1822,7 used,     93,2 buff/cache
+МиБ Swap:   1401,6 total,    515,4 free,    886,2 used.     36,0 avail Mem 
+   3122 pertsev+  20   0  868952 780304   1416 S   0,0  38,3   2:10.95 mem2.bash
+   3121 pertsev+  20   0  872516 783200   1456 R 100,0  38,5   2:10.75 mem.bash
+   1657 pertsev+  20   0 1068500  20752   9788 S  13,3   1,0   0:26.45 nautilus
+   1552 pertsev+  20   0 4590324  83480  26004 S   6,7   4,1   0:53.53 gnome-shell
+   3306 pertsev+  20   0    9636   1008    924 S   6,7   0,0   0:00.01 awk
+      1 root      20   0  167900   1556      0 S   0,0   0,1   0:02.98 systemd
+
+12000000
+МиБ Mem :   1987,2 total,     66,6 free,   1835,6 used,     85,0 buff/cache
+МиБ Swap:   1401,6 total,    367,2 free,   1034,4 used.     28,4 avail Mem 
+   3122 pertsev+  20   0  947096 784232   1240 S   0,0  38,5   2:23.40 mem2.bash
+   3121 pertsev+  20   0  951056 788048   1236 R 100,0  38,7   2:23.14 mem.bash
+   1351 pertsev+  20   0  845852  29984  15376 S   6,7   1,5   0:32.41 Xorg
+   1552 pertsev+  20   0 4590324  81392  23964 S   6,7   4,0   0:53.60 gnome-shell
+   1657 pertsev+  20   0 1068500  20236   9176 S   6,7   1,0   0:26.59 nautilus
+   3321 pertsev+  20   0   11920   3452   2988 R   6,7   0,2   0:00.03 top
+
+13000000
+МиБ Mem :   1987,2 total,     78,5 free,   1797,0 used,    111,7 buff/cache
+МиБ Swap:   1401,6 total,    157,4 free,   1244,3 used.     48,3 avail Mem 
+   3122 pertsev+  20   0 1025240 742668   1284 S   0,0  36,5   2:36.34 mem2.bash
+   3121 pertsev+  20   0 1027088 744188   1324 R 100,0  36,6   2:36.06 mem.bash
+   1552 pertsev+  20   0 4590324  91528  33968 S  25,0   4,5   0:53.98 gnome-shell
+   1351 pertsev+  20   0  853840  47144  18184 S  18,8   2,3   0:32.66 Xorg
+   2926 pertsev+  20   0  907204  26888  14696 R  18,8   1,3   0:09.61 gedit
+   1657 pertsev+  20   0 1068632  20452   9324 S  12,5   1,0   0:26.75 nautilus
+
+14000000
+МиБ Mem :   1987,2 total,     71,0 free,   1805,3 used,    110,9 buff/cache
+МиБ Swap:   1401,6 total,      0,7 free,   1400,9 used.     45,3 avail Mem 
+   3122 pertsev+  20   0 1103384 746604   1284 S   0,0  36,7   2:49.66 mem2.bash
+   3121 pertsev+  20   0 1106684 749032   1324 R 100,0  36,8   2:49.46 mem.bash
+   1657 pertsev+  20   0 1068632  20084   8864 S   6,7   1,0   0:26.89 nautilus
+   3356 pertsev+  20   0    9636    948    864 S   6,7   0,0   0:00.01 awk
+      1 root      20   0  167900   2572   1016 S   0,0   0,1   0:03.01 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+
+15000000
+МиБ Mem :   1987,2 total,    747,7 free,   1095,4 used,    144,1 buff/cache
+МиБ Swap:   1401,6 total,    319,7 free,   1081,9 used.    737,2 avail Mem 
+   3122 pertsev+  20   0 1181528 813204   1576 S   0,0  40,0   3:12.77 mem2.bash
+   1657 pertsev+  20   0 1068764  22488  11176 S  10,5   1,1   0:27.03 nautilus
+   1351 pertsev+  20   0  852080  37976  18112 S   5,3   1,9   0:36.90 Xorg
+   1552 pertsev+  20   0 4590324  94768  36956 S   5,3   4,7   1:05.45 gnome-shell
+   2416 pertsev+  20   0  815844  12248   5224 R   5,3   0,6   0:18.16 gnome-terminal-
+   3365 pertsev+  20   0   11920   3756   3296 R   5,3   0,2   0:00.04 top
+
+16000000
+МиБ Mem :   1987,2 total,    646,6 free,   1180,9 used,    159,8 buff/cache
+МиБ Swap:   1401,6 total,    328,2 free,   1073,4 used.    645,3 avail Mem 
+   3122 pertsev+  20   0 1259540 891328   1576 S   0,0  43,8   3:24.73 mem2.bash
+   1552 pertsev+  20   0 4590324  97440  39564 S  25,0   4,8   1:06.64 gnome-shell
+   1351 pertsev+  20   0  857676  51176  18248 S  12,5   2,5   0:37.70 Xorg
+   1657 pertsev+  20   0 1068764  23708  12240 S  12,5   1,2   0:27.12 nautilus
+   2926 pertsev+  20   0  907416  30524  18228 S  12,5   1,5   0:11.25 gedit
+   3375 pertsev+  20   0    9636    960    876 S   6,2   0,0   0:00.01 awk
+
+17000000
+МиБ Mem :   1987,2 total,    577,9 free,   1249,2 used,    160,1 buff/cache
+МиБ Swap:   1401,6 total,    328,7 free,   1072,9 used.    576,7 avail Mem 
+   3122 pertsev+  20   0 1337684 969456   1576 S   0,0  47,6   3:36.80 mem2.bash
+   1657 pertsev+  20   0 1068912  23768  12240 S   6,7   1,2   0:27.20 nautilus
+   3383 pertsev+  20   0    9636   1000    916 S   6,7   0,0   0:00.01 awk
+      1 root      20   0  167900   1556      0 S   0,0   0,1   0:03.61 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+
+18000000
+МиБ Mem :   1987,2 total,    488,8 free,   1335,2 used,    163,2 buff/cache
+МиБ Swap:   1401,6 total,    337,7 free,   1063,9 used.    488,9 avail Mem 
+   3122 pertsev+  20   0 1415828   1,0g   1576 S   0,0  51,5   3:48.02 mem2.bash
+   1552 pertsev+  20   0 4590324 107544  42152 S  25,0   5,3   1:08.37 gnome-shell
+   1657 pertsev+  20   0 1068912  23948  12404 S  12,5   1,2   0:27.31 nautilus
+   1351 pertsev+  20   0  848972  44972  18756 S   6,2   2,2   0:38.58 Xorg
+   3390 pertsev+  20   0   11920   3616   3156 R   6,2   0,2   0:00.05 top
+   3391 pertsev+  20   0    9636    952    864 S   6,2   0,0   0:00.02 awk
+
+19000000
+МиБ Mem :   1987,2 total,    411,6 free,   1412,3 used,    163,3 buff/cache
+МиБ Swap:   1401,6 total,    338,0 free,   1063,6 used.    411,9 avail Mem 
+   3122 pertsev+  20   0 1493972   1,1g   1576 S   0,0  55,3   4:09.39 mem2.bash
+   1552 pertsev+  20   0 4590324 107804  42152 S  29,4   5,3   1:08.89 gnome-shell
+   1657 pertsev+  20   0 1068912  25200  13608 S  11,8   1,2   0:27.43 nautilus
+   1351 pertsev+  20   0  848972  44972  18756 S   5,9   2,2   0:38.68 Xorg
+   3401 pertsev+  20   0    9636   1000    916 S   5,9   0,0   0:00.02 awk
+      1 root      20   0  167900   1556      0 S   0,0   0,1   0:03.61 systemd
+
+20000000
+МиБ Mem :   1987,2 total,    333,0 free,   1487,4 used,    166,8 buff/cache
+МиБ Swap:   1401,6 total,    339,2 free,   1062,4 used.    335,5 avail Mem 
+   3122 pertsev+  20   0 1572116   1,1g   1576 S   0,0  59,2   4:21.86 mem2.bash
+   1552 pertsev+  20   0 4590324 107784  42152 S  26,3   5,3   1:09.23 gnome-shell
+   1657 pertsev+  20   0 1068912  25252  13608 S  10,5   1,2   0:27.53 nautilus
+   3410 pertsev+  20   0    9636    952    868 S  10,5   0,0   0:00.02 awk
+      1 root      20   0  167900   1556      0 S   0,0   0,1   0:03.61 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+
+21000000
+МиБ Mem :   1987,2 total,    255,9 free,   1564,4 used,    166,9 buff/cache
+МиБ Swap:   1401,6 total,    339,2 free,   1062,4 used.    259,2 avail Mem 
+   3122 pertsev+  20   0 1650260   1,2g   1576 S   0,0  63,0   4:33.64 mem2.bash
+   1552 pertsev+  20   0 4590324 107884  42212 R  81,2   5,3   1:09.64 gnome-shell
+   1657 pertsev+  20   0 1069044  25300  13608 S  25,0   1,2   0:27.69 nautilus
+   3418 pertsev+  20   0    9636    964    876 S  25,0   0,0   0:00.05 awk
+   1351 pertsev+  20   0  848972  44972  18756 S   6,2   2,2   0:38.81 Xorg
+   3417 pertsev+  20   0   11920   3744   3280 R   6,2   0,2   0:00.08 top
+
+22000000
+МиБ Mem :   1987,2 total,    180,5 free,   1639,9 used,    166,9 buff/cache
+МиБ Swap:   1401,6 total,    339,2 free,   1062,4 used.    183,7 avail Mem 
+   3122 pertsev+  20   0 1728404   1,3g   1576 S   0,0  66,8   4:46.05 mem2.bash
+   1552 pertsev+  20   0 4590324 107952  42212 S  25,0   5,3   1:09.93 gnome-shell
+   1657 pertsev+  20   0 1069044  25352  13608 S  12,5   1,2   0:27.79 nautilus
+   3426 pertsev+  20   0    9636    948    864 S  12,5   0,0   0:00.02 awk
+   1351 pertsev+  20   0  848972  44972  18756 S   6,2   2,2   0:38.87 Xorg
+   3425 pertsev+  20   0   11920   3624   3164 R   6,2   0,2   0:00.05 top
+
+23000000
+МиБ Mem :   1987,2 total,    104,2 free,   1716,1 used,    166,9 buff/cache
+МиБ Swap:   1401,6 total,    339,2 free,   1062,4 used.    107,2 avail Mem 
+   3122 pertsev+  20   0 1806416   1,4g   1576 S   0,0  70,7   4:58.73 mem2.bash
+   1552 pertsev+  20   0 4590324 107952  42212 S  18,8   5,3   1:10.20 gnome-shell
+   3434 pertsev+  20   0    9636   1028    940 S  12,5   0,1   0:00.02 awk
+   1351 pertsev+  20   0  848972  44972  18756 S   6,2   2,2   0:38.92 Xorg
+   1657 pertsev+  20   0 1069044  25400  13608 S   6,2   1,2   0:27.87 nautilus
+   3433 pertsev+  20   0   11920   3680   3216 R   6,2   0,2   0:00.04 top
+
+24000000
+МиБ Mem :   1987,2 total,     79,1 free,   1770,9 used,    137,1 buff/cache
+МиБ Swap:   1401,6 total,    310,3 free,   1091,3 used.     66,2 avail Mem 
+   3122 pertsev+  20   0 1884560   1,4g   1576 S   0,0  73,1   5:12.45 mem2.bash
+   1552 pertsev+  20   0 4590324 107904  42212 S  23,5   5,3   1:10.49 gnome-shell
+   3442 pertsev+  20   0    9636    972    888 S  11,8   0,0   0:00.02 awk
+   1657 pertsev+  20   0 1069176  25452  13608 S   5,9   1,3   0:27.95 nautilus
+   3441 pertsev+  20   0   11920   3596   3136 R   5,9   0,2   0:00.04 top
+      1 root      20   0  167900   1556      0 S   0,0   0,1   0:03.61 systemd
+
+25000000
+МиБ Mem :   1987,2 total,     74,2 free,   1818,8 used,     94,2 buff/cache
+МиБ Swap:   1401,6 total,    274,5 free,   1127,1 used.     39,1 avail Mem 
+   3122 pertsev+  20   0 1962704   1,5g   1472 S   0,0  75,1   5:26.52 mem2.bash
+   1552 pertsev+  20   0 4590324  93356  27664 S  27,8   4,6   1:10.83 gnome-shell
+   1657 pertsev+  20   0 1069176  21308   9412 S  11,1   1,0   0:28.04 nautilus
+   1351 pertsev+  20   0  848972  43404  17216 S   5,6   2,1   0:39.03 Xorg
+   3450 pertsev+  20   0    9636    960    872 S   5,6   0,0   0:00.02 awk
+      1 root      20   0  167900   1556      0 S   0,0   0,1   0:03.61 systemd
+
+26000000
+МиБ Mem :   1987,2 total,     74,2 free,   1828,5 used,     84,5 buff/cache
+МиБ Swap:   1401,6 total,    200,6 free,   1201,0 used.     33,7 avail Mem 
+   3122 pertsev+  20   0 2040848   1,5g    800 S   0,0  76,0   5:38.60 mem2.bash
+   1552 pertsev+  20   0 4590324  87780  23792 S  47,1   4,3   1:11.11 gnome-shell
+   3460 pertsev+  20   0    9636    976    888 S  23,5   0,0   0:00.05 awk
+   1351 pertsev+  20   0  848972  39560  16072 S   5,9   1,9   0:39.09 Xorg
+   1657 pertsev+  20   0 1069308  18744   7564 S   5,9   0,9   0:28.17 nautilus
+      1 root      20   0  167900   1556      0 S   0,0   0,1   0:03.61 systemd
+
+27000000
+МиБ Mem :   1987,2 total,     69,1 free,   1830,3 used,     87,8 buff/cache
+МиБ Swap:   1401,6 total,    126,2 free,   1275,5 used.     36,3 avail Mem 
+   3122 pertsev+  20   0 2118992   1,5g    800 S   0,0  76,3   5:50.67 mem2.bash
+   1552 pertsev+  20   0 4590324  85140  23160 S  11,1   4,2   1:11.35 gnome-shell
+   1657 pertsev+  20   0 1069308  17736   7156 S  11,1   0,9   0:28.27 nautilus
+   3468 pertsev+  20   0    9636    940    856 S  11,1   0,0   0:00.02 awk
+   3467 pertsev+  20   0   11920   3408   2948 R   5,6   0,2   0:00.05 top
+      1 root      20   0  167900   2396    840 S   0,0   0,1   0:03.61 systemd
+
+28000000
+МиБ Mem :   1987,2 total,     79,2 free,   1811,3 used,     96,6 buff/cache
+МиБ Swap:   1401,6 total,     38,9 free,   1362,7 used.     46,3 avail Mem 
+   3122 pertsev+  20   0 2197136   1,5g    800 S   0,0  76,0   6:03.72 mem2.bash
+   1552 pertsev+  20   0 4590324  83900  22196 S  12,5   4,1   1:11.58 gnome-shell
+   1657 pertsev+  20   0 1069308  16616   6076 S  12,5   0,8   0:28.35 nautilus
+   3476 pertsev+  20   0    9636    944    856 S  12,5   0,0   0:00.02 awk
+      1 root      20   0  167900   1796    512 S   0,0   0,1   0:03.61 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+
+29000000
+МиБ Mem :   1987,2 total,     61,7 free,   1846,3 used,     79,2 buff/cache
+МиБ Swap:   1401,6 total,      0,0 free,   1401,6 used.     24,7 avail Mem 
+   3122 pertsev+  20   0 2275280   1,5g      0 S   0,0  77,8   6:15.54 mem2.bash
+    100 root      20   0       0      0      0 S  58,8   0,0   8:41.22 kswapd0
+   1552 pertsev+  20   0 4590324  82848  21068 S  23,5   4,1   1:11.96 gnome-shell
+   1657 pertsev+  20   0 1069440  17400   6820 D  17,6   0,9   0:28.59 nautilus
+   3485 pertsev+  20   0   11920   1196    508 R   5,9   0,1   0:00.06 top
+      1 root      20   0  167900   1284      0 S   0,0   0,1   0:03.61 systemd
+
