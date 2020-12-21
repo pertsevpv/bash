@@ -1,0 +1,11 @@
+systeminfo > systeminfo.txt
+wnic diskdrive get model, size, mediatype, name > diskdrive.txt
+
+mkdir TEST
+xcopy C:\LAB6\TASK1 C:\LAB6\TASK1\TEST
+
+cd TEST
+
+dir /b > dir.txt
+
+for %i in (*) do if not %i == dir.txt del %i

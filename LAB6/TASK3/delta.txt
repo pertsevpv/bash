@@ -1,0 +1,21 @@
+Сравнение файлов start.txt и UPDATED.TXT
+***** start.txt
+   DHCP-клиент
+   DNS-клиент
+   Microsoft .NET Framework NGEN v2.0.50727_X64
+   Microsoft .NET Framework NGEN v2.0.50727_X86
+   Plug-and-Play
+***** UPDATED.TXT
+   DHCP-клиент
+   Plug-and-Play
+*****
+
+***** start.txt
+   Quality Windows Audio Video Experience
+   Superfetch
+   Windows Audio
+***** UPDATED.TXT
+   Quality Windows Audio Video Experience
+   Windows Audio
+*****
+

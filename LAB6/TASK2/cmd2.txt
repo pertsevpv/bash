@@ -1,0 +1,18 @@
+2.1
+echo %computername%
+
+2.2
+backup
+
+2.3
+schtasks /create /sc minute /tn backup /tr C:\LAB6\TASK2\backup.cmd
+
+2.4
+schtasks /query /tn backup
+schtasks /delete /tn backup
+
+2.5
+fc C:\Windows\explorer.exe \\%computername%\temp\explorer.exe
+
+2.6
+backup

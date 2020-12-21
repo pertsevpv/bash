@@ -1,0 +1,1 @@
+xcopy /z C:\Windows\explorer.exe \\%computername%\temp
